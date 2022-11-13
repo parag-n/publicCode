@@ -3,11 +3,11 @@ var app=express();  // will create app object from express package
 
 //Http Handlers
 var onDefault=function(req, res){
-    res.send("<h1>Hello Bitches! This is your dad</h1>"+
+    res.send("<h1><center>Hello Bitches! This is your dad</center></h1>"+
               "<hr/>"+
               "<ol>"+
-	    "<head>Follow the follow the following commands to with \"SHIDDAT\" to run the code successfully!"+
-                    " <li>sudo apt update</li>"+
+	    "<head><b>Follow these commands with \"SHIDDAT\" to run the code successfully!</b>"+
+                    " <li><br/>sudo apt update</li>"+
                     " <li>git clone https://github.com/RaviTambade/dbdaMarch22</li>"+
                     " <li>cd dbdaMarch22</li>"+
                     " <li>sudo apt install -y docker.io</li>"+
