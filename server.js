@@ -10,7 +10,6 @@ var onDefault=function(req, res){
                     " <li><br/>sudo apt update</li>"+
                     " <li>git clone https://github.com/parag-n/publicCode</li>"+
                     " <li>cd publicCode</li>"+
-	     	    " <li>rm -r webapp</li>"+
                     " <li>sudo apt install -y docker.io</li>"+
                     " <li>sudo docker build -t <b style="color:Tomato;"image_name</b> .</li>"+
                     " <li>sudo docker run --name <b style="color:Tomato;"server_name</b> -d -p 9000:9000 <b style="color:Tomato;"image_name</b>:latest</li>"+
