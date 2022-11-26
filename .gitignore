@@ -3,4 +3,4 @@ package.json
 package-lock.json
 Day 1
 !*.java
-!/*.java
+!Day 1/*.java
