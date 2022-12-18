@@ -3,7 +3,7 @@ var app=express();  // will create app object from express package
 
 //Http Handlers
 var onDefault=function(req, res){
-    res.send("<h1><center>Hello Bitches! This is your dad</center></h1>"+
+    res.send("<h1><center>Hello folks! Check this out!</center></h1>"+
               "<hr/>"+
               "<ol>"+
 	    "<head background = \"Golden_Retriever.jpg\" ><b>Follow these commands with \"SHIDDAT\" to run the code successfully!</b>"+
@@ -22,7 +22,7 @@ var onDefault=function(req, res){
 };
 
 var onAboutUs=function(req, res){
-    res.send("<h1>Baap ka naam yaad rakhna</h1>");
+    res.send("<h1>LOL! What did you expect?</h1>");
 };
 
 app.get("/",onDefault); 
